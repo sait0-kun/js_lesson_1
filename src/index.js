@@ -14,9 +14,15 @@ const age = 29;
 // console.log("9.", !(age > 30)); // true
 // console.log("10.", !(sex === "woman")); // true
 
-if ("") console.log("hello"); // false
-if (0) console.log("hello"); // false
-if (-0) console.log("hello"); // false
-if (NaN) console.log("hello"); // false
-if (null) console.log("hello"); // false
-if (undefined) console.log("hello"); // false
+// if ("") console.log("hello"); // false
+// if (0) console.log("hello"); // false
+// if (-0) console.log("hello"); // false
+// if (NaN) console.log("hello"); // false
+// if (null) console.log("hello"); // false
+// if (undefined) console.log("hello"); // false
+
+// sex === "man" && console.log("男です");
+// sex === "woman" && console.log("男です");
+
+sex === "man" || console.log("男です");
+sex === "woman" || console.log("女です");
